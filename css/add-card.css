@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    
+
+}
+/*part1*/
+.part1{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    
+}
+.part1 .search input{
+    border: none;
+    padding: 10px;
+}
+.part1 .search{
+    position: relative;
+    left: 100px;
+    
+
+}
+.part1 .search .fa-magnifying-glass{
+    color: #bdc3c7;
+}
+.search input:focus{
+    outline: none;
+}
+button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+    font-size: 27px;
+    justify-content: center;
+    position: relative;
+    left: 425px;
+    
+}
+ .icon1{
+    color: #95a5a6;
+    position: relative;
+    padding-left: 850px;
+    
+}
+.icon1 .fa-user:hover{
+    color: purple;
+}
+.icon1 .fa-heart:hover{
+    color: purple;
+}
+.icon1 .fa-cart-shopping:hover{
+    color: purple;
+}
+.icon1 .fa-user{
+    padding: 5px;
+}
+.icon1 .fa-heart{
+    padding: 5px;
+}
+.icon1 .fa-cart-shopping{
+    padding: 5px;
+}
+/*end part1*/
+
+
+/*navbar*/
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    position: relative;
+    left: 460px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+nav ul{
+    display: flex;
+   
+    
+}
+nav a{
+    text-decoration: none;
+    align-items: center;
+    padding: 20px;
+    color: #2c3e50;
+}
+nav a:hover{
+    color: purple;
+}
+.dropdown .dropbtn{
+    font-size: 15px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    outline: none;
+    color: #2c3e50;
+    margin: -5px;
+    align-items: center;
+    position: relative;
+    left: -5px;
+    padding: 20px;
+}
+.dropdown .dropbtn:hover{
+    color: purple
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+/*end navbar*/
+.section1{
+    width: 100%;
+    height: 70px;
+}
+.section1 .sec {
+    width: 100%;
+    height: 70px;
+    background-color: #f1f2f6;
+    color: black;
+   
+    
+}
+.section1 .sec a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 90px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.section1 .sec a:hover{
+    color: purple;
+}
+/*end setion1*/
+.section2 table{
+    border: 1px solid;
+    width: 1300px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.section2 table td,th{
+    border: 1px solid;
+}
+.section2 table th{
+    font-size: 20px;
+}
+
+
+.section2 table img{
+    width: 300px;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+
+
+}
+.section2 table .polo{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.section2 table .polo1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 65px;
+}
+.section2 table .price2{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.section2 table .Image{
+    width: 250px;
+}
+.section2 table .product{
+    width: 200px;
+}
+.section2 table .Price{
+    width: 150px;
+}
+.section2 table .Quantity{
+    width: 250px;
+}
+.section2 table .Total{
+    width: 150px;
+}
+.section2 table .Remove{
+    width: 150px;
+    height: 100px;
+}
+
+table .buy button{
+    background-color: white;
+    transition: all 0.5s;
+    width: 10px;
+    height: 35px;
+    border: 1px solid black;
+    width: 5px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    align-items: center;
+   
+}
+table .buy button:hover{
+    transform: scale(1.1);
+    background-color: purple;
+}
+
+table .buy input{
+    width: 60px;
+    text-align: center;
+    border-radius: 4px;
+    height: 35px;
+    position: relative;
+    top: 0px;
+    right: -40px;
+    border: 1px solid #a5b1c2;
+}
+table .buy .sty1{
+    border-right: none;
+    border-radius: 5px;
+    width: 0px;
+    text-align: center;
+}
+table .buy .sty2{
+    border-left: none;
+    border-radius: 5px;
+}
+table .buy{
+    text-align: left;
+    position: relative;
+    top: 0px;
+}
+table .buy .sty1 p{
+    position: relative;
+    bottom: 8px;
+    left: -3px;
+    
+}
+table .buy .sty2 p{
+    position: relative;
+    bottom: 5px;
+    right: 6px;
+}
+table .xx button{
+    position: relative;
+    left: 40px;
+    background-color: purple;
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.5s;
+    text-align: center;
+
+}
+table .xx p{
+    color: white;
+}
+
+
+table .xx button:hover{
+    transform: scale(1.1);
+    background-color: purple;
+}
+
+/*end setion2*/
+
+
+.section3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.con-but1 .ubdate{
+    background-color: purple;
+    border: 0;
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+    color: #ecf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s;
+    position: relative;
+    top: 200px;
+    left: 100px;
+
+
+}
+.con-but1 .ubdate:hover{
+    transform: scale(1.1);
+}
+.con-but1 .CONTINE{
+    background-color: white;
+    border: 1px solid purple;
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+    color: #7f8c8d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    margin-left: 30px;
+
+}
+.con-but1 .CONTINE:hover{
+    transform: scale(1.1);
+}
+.copon0 .Copo1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 270px;
+    left: 100px;
+
+}
+.copon0 .You{
+    color: #95a5a6;
+    position: relative;
+    top: 285px;
+    left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.copon0 input{
+    width: 380px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 320px;
+    left: 100px;
+    border-radius: 4px;
+    padding-left: 10px;
+    color: #95a5a6;
+}
+.copon0 .APPLY{
+    background-color: purple;
+    border-radius: 4px;
+    height: 50px;
+    border: 0;
+    color: #ecf0f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s;
+    position: relative;
+    top: 322px;
+    left: 100px;
+    margin-left: 30px;
+}
+.copon0 .APPLY:hover{
+    transform: scale(1.1);
+}
+.end9{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.end9 .TOTA{
+    font-size: 30px;
+    position: relative;
+    top: 205px;
+    left: 565px
+}
+.end9 .min-hr{
+    width: 450px;
+    position: relative;
+    top: 210px;
+    left: 310px;
+}
+.end9 .Suptotal {
+    font-size: 22px;
+    position: relative;
+    top: 250px;
+    left: 330px;
+}
+.end9 .mony{
+    position: relative;
+    font-size: 22px;
+    top: 165px;
+    left: 680px;
+}
+.end9 .PROCEED{
+    background-color: purple;
+    border-radius: 4px;
+    width: 450px;
+    height: 70px;
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s;
+    position: relative;
+    top: 219px;
+    left: 300px;
+    margin-left: 30px;
+}
+.end9 .PROCEED a{
+    text-decoration: none;
+    color: #ecf0f1;
+}
+.end9 .PROCEED:hover{
+    transform: scale(1.1);
+}
+
+/*end setion3*/
+
+
+
+
+.hr9{
+    position: relative;
+    top: 650px;
+}
+
+footer{
+    width: 100%;
+    height: 00px;
+    display: flex;
+    position: relative;
+    top: ;
+}
+footer .contener{
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 100px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a5b1c2;
+
+}
+.contener .big{
+    color: black;
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+    font-size: 25px;
+    font-weight: bolder; 
+}
+
+.contener .ul1{
+    position: relative;
+    top: -60px;
+    left: -120px;
+}
+
+.contener .ul2{
+    position: relative;
+    top: -60px;
+    left: -50px;
+}
+.contener .ul3{
+    position: relative;
+    top: -60px;
+    left: 10px;
+}
+.contener li{
+    padding: 10px;
+}
+.contener2{
+    position: relative;
+    top: 170px;
+    left: 170px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.contener2 .tth{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 25px;
+    position: relative;
+    top: -20px;
+    left: -25px;
+
+}
+.contener2 img{
+    width: 300px;
+}
+.contener2 .pup{
+    color: purple;
+}
+.contener3{
+    position: relative;
+    top: 180px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 230px;
+}
+.contener3 .thhh {
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+
+}
+.contener3 li{
+    padding: 10px;
+    color: #a5b1c2;
+}
+.loc .fa-location-dot{
+    color: purple;
+}
+.contener3  .fa-phone{
+    color: purple;
+}
+.contener3  .fa-envelope{
+    color: purple;
+}
+.contener3 .sup{
+    color: black;
+    font-weight: bold;
+}
+.contener3 input{
+    height: 40px;
+    width: 150px;
+    padding-left: 10px;
+}
+.button-6666 {
+    background-color: purple;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 0px;
+    min-width: 0px;
+    padding-left: 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    left: 150px;
+    top: -41px;
+    width: 80px;
+    height: 40px;
+    
+}
+  
+ .button-6666:hover {
+    background-color: purple;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    /*end footer*/
+    
+.end-fot {
+    display: flex;
+    position: relative;
+    top: 550px;
+    left: 450px;
+    width: 100%;
+    color: #a5b1c2;
+}
+.end-fot p{
+    color: purple;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
